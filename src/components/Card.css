@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards-bg{
+    background-image: url('../images/bg-main-desktop.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 33%;
+    height: 100vh;
+}
+
+.card-div{
+    height: 100%;
+    padding: 17px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.front-card{
+    background-image: url('../images/bg-card-front.png') ;
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    transform: translate(120px, 70px);
+    
+}
+
+.back-card{
+    background-image: url('../images/bg-card-back.png');
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    transform: translate(170px, 100px);
+}
+
+.full-circle{
+    background: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.ghost-circle{
+    
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    border: 1px solid white;
+    
+}
+
+.circle-div{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.name-date-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.second-div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.second-div .card-number{
+    color: white;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 3px;
+}
+
+.name-date-div .name{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.name-date-div .date{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.cvv{
+    padding-right: 33px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #FFFFFF
+}

@@ -1,0 +1,155 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 250px;
+    gap: 15px
+}
+.form-name{
+    display: flex;
+    flex-direction: column;
+}
+.form-name label{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase
+}
+.form-name input{
+    width: 300px;
+    outline: none;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    height: 35px;
+}
+.form-num{
+    display: flex;
+    flex-direction: column;
+}
+.form-num label{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase
+}
+.form-num input{
+    width: 300px;
+    outline: none;
+    outline: none;
+    
+    border-radius: 8px;
+    height: 35px;
+    position: relative;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cvv-div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.input-wrapper{
+    display: flex;
+    
+}
+.input-wrapper input{
+    width: 48px;
+    outline: none;
+    
+    border-radius: 8px;
+    height: 35px;
+   
+}
+button{
+    width: 100%;
+    height: 35px;
+    background: #21092F;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.cvv-div input{
+    outline: none;
+    border-radius: 8px;
+    height: 35px;
+    position: relative;
+}
+
+.exp-div label{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
+
+.cvv-div label{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase
+}
+
+.error-message{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    color:red;
+    position: absolute;
+    bottom:48.5%;
+}
+.cvv-div p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    color:red;
+    position: absolute;
+    bottom:39.5%;
+}
+
+.error{
+    border: 1px solid red;
+}
+
+.not-error{
+    border: 1px solid lightgrey;
+}
+
+.input-wrapper p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    color:red;
+    position: absolute;
+    bottom: 39.5%;
+}
+
