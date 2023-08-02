@@ -65,11 +65,10 @@ export default function Form(props: propsTypes) {
             if (e.target.value.length <= 16) {
               setCardNumber(e.target.value);
             }
-            {
-              e.target.value.length >= 16 || e.target.value.length === 0
-                ? setError(false)
-                : setError(true);
-            }
+
+            e.target.value.length >= 16 || e.target.value.length === 0
+              ? setError(false)
+              : setError(true);
           }}
         />
         {Error ? (
